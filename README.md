@@ -4,6 +4,10 @@ A restaurant menu demo built with **Flutter Web (Dart)**: browse by category, cu
 
 **Live demo:** https://alissonlittig.github.io/cantina-verde/
 
+![Order panel, desktop](docs/cart-desktop.png)
+
+<img src="docs/menu-mobile.png" alt="Menu on a 390px wide screen" width="240"> <img src="docs/dish-mobile.png" alt="Dish sheet with add-ons on a 390px wide screen" width="240">
+
 ## Features
 
 - 16 dishes in 5 categories, sticky category chips, illustrated tiles (no stock photos).
