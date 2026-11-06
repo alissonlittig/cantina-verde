@@ -146,7 +146,7 @@ class _Hero extends StatelessWidget {
         const Wrap(spacing: 8, runSpacing: 8, children: [
           _Info(Icons.schedule, 'Aberto até 23h'),
           _Info(Icons.delivery_dining, '35–45 min'),
-          _Info(Icons.local_offer_outlined, 'Entrega grátis a partir de R\$ 80'),
+          _Info(Icons.local_offer_outlined, 'Grátis acima de R\$ 80'),
         ]),
       ]),
     );
@@ -165,7 +165,7 @@ class _Info extends StatelessWidget {
         child: Row(mainAxisSize: MainAxisSize.min, children: [
           Icon(icon, size: 16, color: Palette.gold),
           const SizedBox(width: 6),
-          Text(text, style: const TextStyle(color: Colors.white, fontSize: 12.5, fontWeight: FontWeight.w500)),
+          Flexible(child: Text(text, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white, fontSize: 12.5, fontWeight: FontWeight.w500))),
         ]),
       );
 }
